@@ -4,6 +4,7 @@ from dataclasses import dataclass
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
+import joblib
 from sklearn.datasets import load_iris
 from sklearn.metrics import (
     accuracy_score,
